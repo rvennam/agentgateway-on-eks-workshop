@@ -2,6 +2,8 @@
 
 Hands-on workshops (about 60 minutes each) for deploying [agentgateway](https://agentgateway.dev) to Amazon EKS and exploring its MCP capabilities: routing, dynamic discovery, JWT auth, tool-level RBAC, and the UI.
 
+![agentgateway architecture: clients route through the gateway's routing, security, MCP, LLM, and observability layers to models and tools](images/agentgateway-architecture.gif)
+
 ## Workshops
 
 | Workshop | What you deploy |
