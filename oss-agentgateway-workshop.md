@@ -107,6 +107,8 @@ kubectl port-forward deployment/agentgateway-proxy -n agentgateway-system 15000
 
 Open **http://localhost:15000/ui/** and click around: Gateway Overview, Listeners, Routes, Policies, and a CEL Playground. In Kubernetes mode the UI is read-only; the CRDs you apply are the source of truth, and the UI shows you what the proxy is actually running. It's nearly empty for now. The next modules change that.
 
+![Built-in UI Gateway Overview right after install: readonly mode, one listener, no routes or policies yet](images/oss/ui-overview-empty.png)
+
 > **NLB note:** the NLB takes 2-3 minutes to provision on EKS. Continue with Module 2 while it comes up.
 
 ---
